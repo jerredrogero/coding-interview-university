@@ -1,3 +1,4 @@
+'''
 # iterative
 def binary_search(sequence, item):
     begin_index = 0
@@ -42,3 +43,4 @@ def binarysearch(data, low, high, item):
 nums = [3, 5, 8, 15, 26, 38, 47, 136]
 
 print(binarysearch(nums, 0, len(nums)-1, 122))
+'''
