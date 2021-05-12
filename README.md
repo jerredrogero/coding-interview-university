@@ -1003,13 +1003,13 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - ### Caches
 
-  - [ ] LRU cache:
-    - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
-    - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
+  - [x] LRU cache:
+    - [x] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+    - [x] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
     - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
-  - [ ] CPU cache:
-    - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
-    - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
+  - [x] CPU cache:
+    - [x] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+    - [x] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
 - ### Processes and Threads
 
@@ -1038,15 +1038,15 @@ Graphs can be used to represent many problems in computer science, so this secti
     - Forking is really copy on write (read-only) until the new process writes to memory, then it does a full copy.
     - Context switching
       - How context switching is initiated by the operating system and underlying hardware?
-  - [ ] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
-  - [ ] concurrency in Python (videos):
-    - [ ] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
-    - [ ] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
-    - [ ] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
+  - [x] [threads in C++ (series - 10 videos)](https://www.youtube.com/playlist?list=PL5jc9xFGsL8E12so1wlMS0r0hTQoJL74M)
+  - [x] concurrency in Python (videos):
+    - [x] [Short series on threads](https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1)
+    - [x] [Python Threads](https://www.youtube.com/watch?v=Bs7vPNbB9JM)
+    - [x] [Understanding the Python GIL (2010)](https://www.youtube.com/watch?v=Obt-vMVdM8s)
       - [reference](http://www.dabeaz.com/GIL)
-    - [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
-    - [ ] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
-    - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
+    - [x] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+    - [x] [Keynote David Beazley - Topics of Interest (Python Asyncio)](https://www.youtube.com/watch?v=ZzfHjytDceU)
+    - [x] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 - ### Testing
 
@@ -1055,14 +1055,14 @@ Graphs can be used to represent many problems in computer science, so this secti
     - what are mock objects
     - what is integration testing
     - what is dependency injection
-  - [ ] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-  - [ ] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-  - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
+  - [x] [Agile Software Testing with James Bach (video)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+  - [x] [Open Lecture by James Bach on Software Testing (video)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+  - [x] [Steve Freeman - Test-Driven Development (that’s not what we meant) (video)](https://vimeo.com/83960706)
     - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
-  - [ ] Dependency injection:
-    - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
-    - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-  - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+  - [x] Dependency injection:
+    - [x] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+    - [x] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
+  - [x] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Scheduling
 
@@ -1071,11 +1071,11 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - ### String searching & manipulations
 
-  - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
-  - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-    - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
-    - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
-    - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
+  - [x] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+  - [x] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+    - [x] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
+    - [x] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
+    - [x] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
     - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
     - [ ] [5. Rabin-Karp](https://www.coursera.org/learn/algorithms-part2/lecture/3KiqT/rabin-karp)
   - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
